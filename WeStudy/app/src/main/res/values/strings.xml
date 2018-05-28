@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">WeStudy</string>
+    <string name="dialog_title">Habilidades</string>
+    <string name="ok_label">OK</string>
+    <string name="dismiss_label">Cancelar</string>
+    <string name="clear_all_label">Limpiar todo</string>
+
+    <string-array name="lista_habilidades">
+        <item>Algoritmos</item>
+        <item>POO</item>
+        <item>Punteros</item>
+        <item>Cálculo Integral</item>
+        <item>Cálculo Vectorial</item>
+        <item>Diagramas</item>
+        <item>Ecuaciones Diferenciales</item>
+        <item>Base de Datos</item>
+        <item>TGS</item>
+        <item>Investigación</item>
+    </string-array>
 </resources>

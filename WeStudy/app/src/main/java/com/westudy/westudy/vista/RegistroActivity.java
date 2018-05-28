@@ -15,6 +15,9 @@ import android.widget.Button;
 
 import android.widget.TextView;
 
+import com.westudy.westudy.R;
+
+
 
 
 
@@ -46,13 +49,13 @@ public class RegistroActivity extends AppCompatActivity {
 
 
 
-        mOrder = (Button) findViewById(R.id.btnOrder);
+        mOrder = (Button) findViewById(R.id.boton_hab);
 
-        mItemSelected = (TextView) findViewById(R.id.tvItemSelected);
+        mItemSelected = (TextView) findViewById(R.id.textview_hab);
 
 
 
-        listItems = getResources().getStringArray(R.array.shopping_item);
+        listItems = getResources().getStringArray(R.array.lista_habilidades);
 
         checkedItems = new boolean[listItems.length];
 

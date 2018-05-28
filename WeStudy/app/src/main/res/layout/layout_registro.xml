@@ -49,12 +49,49 @@
                 android:inputType="textPassword" />
 
             <Button
+                android:id="@+id/boton_hab"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.3"
+                android:background="#c3e6a1"
+                android:text="Escoger habilidades"
+                android:textColor="#494949"
+                android:textSize="24dp" />
+
+            <Button
+                android:id="@+id/boton_def"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.3"
+                android:background="#dfc4a0"
+                android:text="Escoger deficiencias"
+                android:textColor="#494949"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/textview_hab"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Habilidades:" />
+
+            <TextView
+                android:id="@+id/textview_deb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Deficiencias:" />
+
+            <Button
                 android:id="@+id/boton_registrar"
                 style="?android:attr/buttonStyleSmall"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_weight="0.5"
+                android:background="#53b7ff"
                 android:text="Registrar"
                 android:textColor="#494949"
                 android:textSize="24dp" />
@@ -64,7 +101,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_gravity="center_horizontal"
-                android:layout_weight="1"
+                android:layout_weight="0.5"
                 android:gravity="center_vertical"
                 android:text="Login"
                 android:textAppearance="?android:attr/textAppearanceMedium"
